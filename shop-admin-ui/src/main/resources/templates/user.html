@@ -54,9 +54,8 @@
                     <thead>
                     <tr>
                         <th>id</th>
-                        <th>Title</th>
-                        <th>description</th>
-                        <th>Price</th>
+                        <th>Login</th>
+                        <th>email</th>
                         <th class="actions">Actions</th>
                     </tr>
                     </thead>
@@ -65,6 +64,7 @@
                         <th th:text="${user.id}" scope="row">1</th>
                         <!--/*@thymesVar id="product" type=""*/-->
                         <td th:text="${user.login}" scope="row">Alex</td>
+                        <td th:text="${user.email}" scope="row">Alex@mail.rr</td>
                         <td>
                             <a href="#" class="btn btn-icon btn-pill btn-primary" data-toggle="tooltip" title="Edit"><i class="fa fa-fw fa-edit"></i></a>
                             <a href="#" class="btn btn-icon btn-pill btn-danger" data-toggle="tooltip" title="Delete"><i class="fa fa-fw fa-trash"></i></a>

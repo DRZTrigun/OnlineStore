@@ -62,7 +62,7 @@
                     <tr th:if="${roles.hasContent()}" th:each="product : ${roles.content}" >
                         <th th:text="${role.id}" scope="row">1</th>
                         <!--/*@thymesVar id="product" type=""*/-->
-                        <td th:text="${role.name}" scope="row">2</td>
+                        <td th:text="${role.name}" scope="row">admin</td>
                         <td>
                             <a href="#" class="btn btn-icon btn-pill btn-primary" data-toggle="tooltip" title="Edit"><i class="fa fa-fw fa-edit"></i></a>
                             <a href="#" class="btn btn-icon btn-pill btn-danger" data-toggle="tooltip" title="Delete"><i class="fa fa-fw fa-trash"></i></a>
