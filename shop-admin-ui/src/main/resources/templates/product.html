@@ -64,9 +64,9 @@
                     <tr th:if="${products.hasContent()}" th:each="product : ${products.content}" >
                         <th th:text="${product.id}" scope="row">1</th>
                         <!--/*@thymesVar id="product" type=""*/-->
-                        <td th:text="${product.title}" scope="row">2</td>
-                        <td th:text="${product.description}" scope="row">3</td>
-                        <td th:text="${product.price}" scope="row">4</td>
+                        <td th:text="${product.title}" scope="row">Product1</td>
+                        <td th:text="${product.description}" scope="row">Product1</td>
+                        <td th:text="${product.price}" scope="row">100</td>
                         <td>
                             <a href="#" class="btn btn-icon btn-pill btn-primary" data-toggle="tooltip" title="Edit"><i class="fa fa-fw fa-edit"></i></a>
                             <a href="#" class="btn btn-icon btn-pill btn-danger" data-toggle="tooltip" title="Delete"><i class="fa fa-fw fa-trash"></i></a>
